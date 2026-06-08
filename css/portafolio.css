@@ -1,0 +1,251 @@
+
+/* Bloque de bienvenida */
+.bloque-bienvenida {
+    background: linear-gradient(135deg, #f9f3e8 0%, #fff5e6 100%);
+    padding: 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #f0dbb4;
+}
+
+.bloque-bienvenida h2 {
+    color: #d35400;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.bloque-bienvenida p {
+    font-size: 1rem;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+/* Contenedor de proyectos (tarjetas) */
+.mis-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 35px 0;
+}
+
+.proyecto-item {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+    border: 1px solid #ffe0b5;
+}
+
+.proyecto-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    border-color: #e67e22;
+}
+
+.icono-proy {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 15px;
+}
+
+.proyecto-item h3 {
+    color: #2c3e66;
+    font-size: 1.4rem;
+    margin: 10px 0 12px 0;
+}
+
+.proyecto-item p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.badge-proyecto {
+    display: inline-block;
+    background-color: #fdebd0;
+    color: #c0392b;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+/* Tabla de habilidades */
+.seccion-tabla {
+    margin: 40px 0;
+}
+
+.seccion-tabla h2 {
+    color: #2c3e66;
+    border-left: 5px solid #e67e22;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.tabla-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th {
+    background-color: #2c3e66;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.fila-clara {
+    background-color: #ffffff;
+}
+
+.fila-oscura {
+    background-color: #fef9f0;
+}
+
+progress {
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+/* Metas laterales (estilo diferente) */
+.metas-laterales {
+    background-color: #f4f7fc;
+    border-radius: 28px;
+    padding: 25px;
+    margin: 35px 0;
+}
+
+.metas-laterales h2 {
+    color: #2c3e66;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.lista-metas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border-left: 6px solid #e67e22;
+    transition: all 0.2s;
+}
+
+.meta-card:hover {
+    background-color: #fffaf2;
+    transform: translateX(5px);
+}
+
+.meta-numero {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e67e22;
+    opacity: 0.6;
+    min-width: 50px;
+}
+
+.meta-texto strong {
+    color: #2c3e66;
+    font-size: 1rem;
+}
+
+.meta-texto p {
+    margin: 5px 0 0 0;
+    color: #5a5a5a;
+}
+
+/* Progreso general con otro look */
+.progreso-estilo {
+    background-color: #fffbf5;
+    border-radius: 28px;
+    padding: 25px;
+    margin-top: 30px;
+    border: 1px solid #f5e2c4;
+}
+
+.progreso-estilo h2 {
+    color: #2c3e66;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.barra-item {
+    margin-bottom: 18px;
+}
+
+.barra-item span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+.barra-item progress {
+    width: 100%;
+    height: 14px;
+    border-radius: 20px;
+}
+
+.nota-final {
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #fdebd0;
+    border-radius: 50px;
+    color: #c0392b;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .mis-proyectos {
+        grid-template-columns: 1fr;
+    }
+    
+    .meta-card {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .meta-numero {
+        font-size: 1.5rem;
+    }
+    
+    .bloque-bienvenida h2 {
+        font-size: 1.4rem;
+    }
+    
+    table {
+        font-size: 0.85rem;
+    }
+    
+    td, th {
+        padding: 8px;
+    }
+}

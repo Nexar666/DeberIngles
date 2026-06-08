@@ -1,0 +1,134 @@
+/* ===================================================== */
+/* =============== BORDES PARA BOTONES ====== */
+/* ===================================================== */
+.botonesnav {
+    border-left: 6px solid #0d0d0d;
+}
+
+.botonesRedireccion {
+    border-left: 6px solid rgb(132, 22, 22);
+}
+
+#contacto {
+    border-left: 6px solid #1b7505;
+}
+
+/* ===================================================== */
+/* =============== ESTILOS DE LISTAS POR ID ============ */
+/* ===================================================== */
+#intereses li {
+    background-color: #f4f6f8;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#pasos li {
+    background-color: #ebedef;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* ============================================= */
+/* =============== MULTIMEDIA ================== */
+/* ============================================= */
+#multimedia {
+    background-color: #f4f6f8;
+}
+
+#multimedia h3 {
+    color: #1b7505;
+}
+
+/* ===================================================== */
+/* =============== FORMULARIOS Y FIGURAS =============== */
+/* ===================================================== */
+section form {
+    background-color: #f4f6f8;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px dashed #a8a8a8;
+}
+
+main figure {
+    background-color: #f4f6f8;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px dashed #a8a8a8;
+}
+
+/* ========================================= */
+/* =============== NOTAS =================== */
+/* ========================================= */
+.nota {
+    background-color: #f4f6f8;
+    border-left: 6px solid #dba112;
+    padding: 17px;
+    font-size: 15px;
+}
+
+/* ===================================================== */
+/* =============== RESPONSIVE (PANTALLAS < 700px) ====== */
+/* ===================================================== */
+@media (max-width: 700px) {
+
+    /* Menú en columna */
+    nav {
+        flex-direction: column;
+    }
+
+    /* Enlaces de navegación ocupan todo el ancho */
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Título más pequeño */
+    h1 {
+        font-size: 26px;
+    }
+
+    /* Contenido principal y lateral con ancho reducido */
+    main,
+    aside {
+        width: 95%;
+    }
+
+    /* Reducción de padding en contenedores */
+    section,
+    article,
+    aside {
+        padding: 15px;
+    }
+
+    /* Texto de tabla más pequeño */
+    table {
+        font-size: 14px;
+    }
+
+    /* Elementos de formulario ocupan todo el ancho */
+    input,
+    select,
+    textarea,
+    button {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    /* Elementos multimedia responsivos */
+    input,
+    select,
+    textarea,
+    button,
+    meter,
+    progress,
+    audio {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+}

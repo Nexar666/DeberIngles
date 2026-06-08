@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mi portafolio · Geovanny Brito</title>
+
+    <link rel="icon" href="../img/mundito.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/portafolio.css">
+</head>
+
+<body>
+
+    <header style="background-color: #2c3e66; color: white;">
+        <h1> Geovanny Brito · Portafolio</h1>
+        <p>Proyectos, ejercicios y cositas que voy aprendiendo</p>
+    </header>
+
+    <nav style="background-color: #e67e22;">
+        <a href="../index.html" style="background-color: #f39c12; color: white; border-color: #d35400;">
+            <i class="fa-solid fa-house"></i> Inicio
+        </a>
+        <a href="buscar.html" style="background-color: #f39c12; color: white; border-color: #d35400;">Buscar</a>
+        <a href="cto/contacto.html" style="background-color: #f39c12; color: white; border-color: #d35400;">
+            <i class="fa-solid fa-envelope"></i> Contacto
+        </a>
+        <a href="portafolio.html" style="background-color: #d35400; color: white; border-color: #a04000;"> Portafolio</a>
+    </nav>
+
+    <main>
+ 
+        <div class="bloque-bienvenida">
+            <h2> Lo que he estado haciendo </h2>
+            <p>Aquí guardo mis prácticas de HTML y CSS. No soy un experto todavía, pero cada semana le meto ganas. Esto es lo que llevo hasta ahora.</p>
+        </div>
+ 
+        <div class="mis-proyectos">
+            <div class="proyecto-item">
+                <div class="icono-proy"><i class="fa-regular fa-envelope"></i></div>
+                <h3>Formulario de contacto</h3>
+                <p>Campos de texto, correo, mensaje, selector de fecha y hasta validación de contraseña con patrón. Lo envié con método GET para ver cómo quedan los datos en la URL.</p>
+                <span class="badge-proyecto"> Formularios</span>
+                <span class="badge-proyecto"> Validación</span>
+            </div>
+
+            <div class="proyecto-item">
+                <div class="icono-proy"><i class="fa-regular fa-user"></i></div>
+                <h3>Mi primera página personal</h3>
+                <p>Usé etiquetas como header, nav, main, section y footer. Aprendí a organizar carpetas y a poner enlaces que funcionan entre páginas.</p>
+                <span class="badge-proyecto"> Semántica</span>
+                <span class="badge-proyecto"> Rutas</span>
+            </div>
+
+            <div class="proyecto-item">
+                <div class="icono-proy"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <h3>Sistema de búsqueda local</h3>
+                <p>Un formulario con select, checkboxes y radio. Todo se envía por GET y se ve reflejado en la barra del navegador. Útil para entender cómo viaja la información.</p>
+                <span class="badge-proyecto"> GET</span>
+                <span class="badge-proyecto"> Inputs</span>
+            </div>
+        </div>
+ 
+        <div class="seccion-tabla">
+            <h2> Habilidades que estoy desarrollando</h2>
+            <div class="tabla-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Habilidad</th>
+                            <th>¿Qué sé hacer?</th>
+                            <th>Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="fila-clara">
+                            <td> HTML semántico</td>
+                            <td>Organizar contenido con header, nav, main, article, section</td>
+                            <td><progress value="88" max="100"></progress> 88%</td>
+                        </tr>
+                        <tr class="fila-oscura">
+                            <td> Formularios</td>
+                            <td>Crear inputs, selects, checkboxes, validaciones required y pattern</td>
+                            <td><progress value="82" max="100"></progress> 82%</td>
+                        </tr>
+                        <tr class="fila-clara">
+                            <td> Multimedia</td>
+                            <td>Insertar videos, audios, iframes de YouTube y manejar poster</td>
+                            <td><progress value="78" max="100"></progress> 78%</td>
+                        </tr>
+                        <tr class="fila-oscura">
+                            <td> Tablas y listas</td>
+                            <td>Hacer tablas ordenadas, thead/tbody y listas anidadas</td>
+                            <td><progress value="92" max="100"></progress> 92%</td>
+                        </tr>
+                        <tr class="fila-clara">
+                            <td> CSS base</td>
+                            <td>Colores, fuentes, márgenes, algo de flexbox y responsive</td>
+                            <td><progress value="70" max="100"></progress> 70%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+ 
+        <div class="metas-laterales">
+            <h2> Metas personales</h2>
+            <div class="lista-metas">
+                <div class="meta-card">
+                    <div class="meta-numero">01</div>
+                    <div class="meta-texto">
+                        <strong> 3 meses</strong>
+                        <p>Aprender bien Flexbox y Grid, hacer un par de maquetas responsivas.</p>
+                    </div>
+                </div>
+                <div class="meta-card">
+                    <div class="meta-numero">02</div>
+                    <div class="meta-texto">
+                        <strong> 6 meses</strong>
+                        <p>Meterle a JavaScript, crear un proyectito como un contador o un menú interactivo.</p>
+                    </div>
+                </div>
+                <div class="meta-card">
+                    <div class="meta-numero">03</div>
+                    <div class="meta-texto">
+                        <strong> 1 año</strong>
+                        <p>Aprender un framework (React o Vue) y armar un portafolio más presentable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="progreso-estilo">
+            <h2> ¿Cómo voy en el curso?</h2>
+            <div class="barra-item">
+                <span>HTML y etiquetas semánticas</span>
+                <progress value="90" max="100"></progress>
+            </div>
+            <div class="barra-item">
+                <span>Formularios y métodos HTTP</span>
+                <progress value="85" max="100"></progress>
+            </div>
+            <div class="barra-item">
+                <span>CSS y maquetación</span>
+                <progress value="68" max="100"></progress>
+            </div>
+            <div class="barra-item">
+                <span>JavaScript (próximamente)</span>
+                <progress value="15" max="100"></progress>
+            </div>
+            <div class="nota-final">
+                <i class="fa-regular fa-face-smile"></i> Echándole ganas, paso a paso
+            </div>
+        </div>
+
+    </main>
+
+    <footer style="background-color: #2c3e66;">
+        <p>© 2026 Geovanny Brito Casanova · Portafolio de prácticas</p>
+        <p>Fundamentos de Programación · ESPE Santo Domingo</p>
+        <address>contacto@ejemplo.com | Ecuador</address>
+    </footer>
+
+</body>
+
+</html>
