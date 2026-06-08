@@ -58,25 +58,25 @@ Sección nueva integrada al proyecto original, que incluye:
 ##  Organización de archivos
 
  
-MI-PORTAFOLIO-2026/
+PracticaP2/
 │
-├── audio/                     # Archivos de sonido (.mp3)
+├── audio/ # Archivos de sonido (.mp3)
 │
 ├── css/
-│   ├── buscar.css             # Estilos específicos para la página de búsqueda
-│   ├── contacto.css           # Estilos específicos para el formulario de contacto
-│   ├── general.css            # Estilos comunes a todas las páginas
-│   ├── index.css              # Estilos propios de la página principal
-│   └── portafolio.css         # Estilos exclusivos de la sección portafolio
+│ ├── buscar.css # Estilos específicos para la página de búsqueda
+│ ├── contacto.css # Estilos específicos para el formulario de contacto
+│ ├── general.css # Estilos comunes a todas las páginas
+│ ├── index.css # Estilos propios de la página principal
+│ └── portafolio.css # Estilos exclusivos de la sección portafolio
 │
-├── img/                       # Imágenes de respaldo, logos y recursos visuales
+├── img/ # Imágenes de respaldo, logos y recursos visuales
 │
 ├── pages/
-│   ├── buscar.html
-│   ├── portafolio.html
-│   └── cto/
-│       └── contacto.html
+│ ├── buscar.html
+│ ├── portafolio.html
+│ └── cto/
+│ └── contacto.html
 │
-├── video/                     # Videos de muestra (.mp4)
+├── video/ # Videos de muestra (.mp4)
 │
-└── index.html                 # Página de inicio
+└── index.html # Página de inicio
