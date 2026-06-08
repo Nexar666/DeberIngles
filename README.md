@@ -58,25 +58,22 @@ Sección nueva integrada al proyecto original, que incluye:
 ##  Organización de archivos
 
  
-PracticaP2/
-│
-├── audio/ # Archivos de sonido (.mp3)
-│
-├── css/
-│ ├── buscar.css # Estilos específicos para la página de búsqueda
-│ ├── contacto.css # Estilos específicos para el formulario de contacto
-│ ├── general.css # Estilos comunes a todas las páginas
-│ ├── index.css # Estilos propios de la página principal
-│ └── portafolio.css # Estilos exclusivos de la sección portafolio
-│
-├── img/ # Imágenes de respaldo, logos y recursos visuales
-│
-├── pages/
-│ ├── buscar.html
-│ ├── portafolio.html
-│ └── cto/
-│ └── contacto.html
-│
-├── video/ # Videos de muestra (.mp4)
-│
-└── index.html # Página de inicio
+PracticaP2/ 
+
+- audio/
+- css/
+  - buscar.css
+  - contacto.css
+  - general.css
+  - index.css
+  - portafolio.css
+- img/
+- pages/
+  - buscar.html
+  - portafolio.html
+  - cto/
+    - contacto.html
+- video/
+- index.html
+
+---
