@@ -1,61 +1,55 @@
-# Proyecto Web Personal - Portafolio de Aprendizaje
+# Personal Web Project - Learning Portfolio
 
-## Acerca del proyecto
+## About
 
-Este trabajo práctico fue elaborado en el marco de la asignatura **Fundamentos de Programación**, con el objetivo de aplicar los conceptos clave relacionados con **HTML5, hojas de estilo CSS, organización semántica del contenido, manejo de formularios, integración de recursos multimedia y adaptación visual a distintos dispositivos**.
+This practical project was developed for the **Programming Fundamentals** course. Its goal is to apply key concepts related to **HTML5, CSS style sheets, semantic content organization, form handling, multimedia integration, and responsive design for different devices**.
 
-El sitio se compone de varias páginas interconectadas mediante un sistema de navegación basado en rutas relativas, e incorpora distintos elementos como formularios de envío, tablas comparativas, galería de imágenes, contenido de audio/video y una estructura adaptable mediante **consultas de medios (media queries)**.
+The site consists of several interconnected pages using relative paths for navigation. It includes elements such as submission forms, comparison tables, image galleries, audio/video content, and a responsive layout built with **media queries**.
 
-Como parte de la evolución del proyecto, se añadió una nueva sección denominada **portafolio.html**, creada con el fin de exponer las competencias técnicas adquiridas, los proyectos desarrollados durante el curso, el nivel de progreso alcanzado y las aspiraciones profesionales a futuro, todo ello manteniendo una línea gráfica consistente con el resto del sitio.
+As the project evolved, a new section called `portafolio.html` was added to showcase acquired technical skills, projects developed during the course, progress levels, and future career goals — all while maintaining a consistent visual style across the site.
 
----
+## Purpose
 
-## Finalidad del trabajo
+To practice the topics covered in the second unit, including:
 
-Poner en práctica los temas tratados durante la segunda unidad, entre los cuales se incluyen:
+- Proper use of semantic HTML tags
+- CSS syntax and rules
+- Type, class, ID, and pseudo-class selectors
+- Colors, typography, and spacing
+- The box model (padding, margin, border)
+- Flexbox layouts
+- CSS Grid for element positioning
+- Responsive interfaces for different screen sizes
+- Media queries
 
-- Uso correcto de etiquetas semánticas HTML
-- Aplicación de sintaxis y reglas CSS
-- Manejo de selectores de tipo, clase, ID y pseudo-clases
-- Ajustes visuales mediante propiedades de color, tipografía y espaciado
-- Comprensión del modelo de caja (padding, margin, border)
-- Implementación de layouts con Flexbox
-- Uso de CSS Grid para disposición de elementos
-- Adaptación de interfaces a diferentes tamaños de pantalla
-- Implementación de media queries para diseño responsivo
+## Site pages
 
----
+### `index.html`
+Home page featuring a personal introduction, areas of interest, multimedia content (audio, local video, YouTube iframe), inquiry forms, and a weekly study plan table.
 
-## Páginas que componen el sitio
+### `buscar.html`
+Simulates form data submission using the **GET** method, showing transmitted parameters directly in the browser's address bar.
 
-### index.html
-Pantalla principal donde se muestra una presentación personal, áreas de interés, contenido multimedia (audio, video local e iframe de YouTube), formularios de consulta y una tabla con el plan de estudio semanal.
+### `contacto.html`
+Focuses on form validation using native HTML attributes such as:
 
-### buscar.html
-Espacio destinado a la simulación del envío de datos desde formularios utilizando el método **GET**, permitiendo visualizar los parámetros transmitidos directamente en la barra de direcciones del navegador.
+- `required`
+- `minlength` and `maxlength`
+- `pattern` (regular expressions for passwords)
+- `type="email"` and `type="date"`
 
-### contacto.html
-Página enfocada en la validación de formularios mediante atributos nativos de HTML como:
+### `portafolio.html`
+A new section that includes:
 
-- required (campos obligatorios)
-- minlength y maxlength (longitud de texto)
-- pattern (expresiones regulares para contraseñas)
-- type="email" y type="date"
+- Descriptive cards for completed projects
+- A table of technical skills and proficiency levels
+- An illustrative image for each project
+- Semantic markup with modern HTML tags
+- Responsive design for mobile and tablets
+- Professional goals organized by timeframe
+- Combined use of Grid and Flexbox for layout
 
-### portafolio.html
-Sección nueva integrada al proyecto original, que incluye:
-
-- Tarjetas descriptivas de los trabajos realizados
-- Tabla con habilidades técnicas y su nivel de dominio
-- Imagen ilustrativa por cada proyecto
-- Organización semántica con etiquetas modernas
-- Adaptación visual para móviles y tablets
-- Listado de metas profesionales organizadas por plazos
-- Uso combinado de Grid y Flexbox para la maquetación
-
----
-
-##  Organización de archivos
+## File structure
 
  
 PracticaP2/ 
